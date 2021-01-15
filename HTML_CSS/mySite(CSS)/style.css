@@ -1,0 +1,63 @@
+@font-face{
+    font-family: merriweather;
+    src: url(./fonts/Merriweather/Merriweather-Regular.ttf);
+}
+@font-face{
+    font-family: montserrat;
+    src: url(./fonts/Montserrat/Montserrat-Regular.ttf);
+}
+@font-face{
+    font-family: sacramento;
+    src: url(./fonts/Sacramento/Sacramento-Regular.ttf);
+}
+
+body{
+    text-align: center;
+    margin: 0;
+    font-family: "merriweather";
+    line-height: 2;
+}
+h1{
+    margin-top: 50px auto 0 auto;
+    font-size: 5.62rem; /* 1em = 100% = 16px */
+    font-family: sacramento;
+    color: #66BFBF;
+}
+h2{
+    font-size: 2.5rem;
+    color: #66BFBF;
+}
+h3{
+    font-size: 1.8rem;
+    color: #11999E
+}
+a{
+    color: #119991;
+    text-decoration: none;
+}
+
+.top-container{
+    position: relative;
+    padding-top: 100px;
+    background-color: #E4F9F5;
+}
+.subtitle{
+    font-weight: normal;
+}
+.middle-container{
+}
+.bottom-container{
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.pro{
+    text-decoration: underline;
+}
